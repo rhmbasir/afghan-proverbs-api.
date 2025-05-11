@@ -34,7 +34,7 @@ router.get('/', (req, res) => {
   res.render('proverbs', { proverbs });
 });
 
-// Route: GET /:id - View a single proverb
+// Route: GET /id - View a single proverb
 router.get('/:id', (req, res) => {
   const proverbs = loadProverbs();
   const id = parseInt(req.params.id);
@@ -49,11 +49,14 @@ router.get('/:id', (req, res) => {
 
 // Route: POST / - Add a new proverb
 router.post('/', (req, res) => {
-  const proverbs = loadProverbs();
-  const newProverb = {
-    id: Date.now(),
-    ...req.body,
-  };
+    const proverbs = loadProverbs();
+  
+    // Determine the next ID
+    const lastId = proverbs.length > 0 ? Math.max(...proverbs.map(p => p.id)) : 0;
+    const newProverb = {
+      id: lastId + 1,
+      ...req.body,
+    };
 
   proverbs.push(newProverb);
   saveProverbs(proverbs);
@@ -61,7 +64,7 @@ router.post('/', (req, res) => {
   res.status(201).json(newProverb);
 });
 
-// Route: PUT /:id - Update existing proverb
+// Route: PUT /id - Update existing proverb
 router.put('/:id', (req, res) => {
   const proverbs = loadProverbs();
   const id = parseInt(req.params.id);
@@ -77,7 +80,7 @@ router.put('/:id', (req, res) => {
   res.json(proverbs[index]);
 });
 
-// Route: DELETE /:id - Delete a proverb
+// Route: DELETE /id - Delete a proverb
 router.delete('/:id', (req, res) => {
   const proverbs = loadProverbs();
   const id = parseInt(req.params.id);
@@ -91,4 +94,4 @@ router.delete('/:id', (req, res) => {
   res.json({ message: 'Proverb deleted successfully' });
 });
 
-export default router;
+export default router; 
