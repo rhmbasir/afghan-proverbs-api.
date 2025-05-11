@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Proverb Details</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Proverb Detail</h1>
+    <div class="card">
+      <h2>Dari: <%= proverb.textDari %></h2>
+      <h3>Pashtu: <%= proverb.textPashto %></h3>
+      <div class="pro">
+        <p><strong>English:</strong> <%= proverb.translationEn %></p>
+        <p><strong>Meaning:</strong> <%= proverb.meaning %></p>
+        <p><strong>Category:</strong> <span class="category"><%= proverb.category %></span></p>
+      </div>
+    </div>
+    <a href="/proverbs" class="back">← Back to All Proverbs</a>
+  </div>
+</body>
+</html>

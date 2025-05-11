@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Afghan Proverbs</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Afghan Proverbs</h1>
+    <ul class="proverb-list">
+      <% proverbs.forEach(proverb => { %>
+        <li><strong><%= proverb.id %>.</strong>
+          <a href="/proverbs/<%= proverb.id %>"><strong><%= proverb.textDari %></strong></a>
+          <br>
+          <p><%= proverb.textPashto %></p>
+          <p><%= proverb.translationEn %></p>
+          <span class="category"><%= proverb.meaning %></span>
+          <span class="category">(<%= proverb.category %>)</span>
+        </li>
+        <br>
+      <% }) %>
+    </ul>
+  </div>
+</body>
+</html>

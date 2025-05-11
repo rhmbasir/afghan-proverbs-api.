@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "textDari": "هر چه کنی به خود کنی گر همه نیک و بد کنی",
+    "textPashto": "هر څه چې کوې، په ځان یې کوې، که ښه وي که بد",
+    "translationEn": "Whatever you do, good or bad, you do it to yourself.",
+    "meaning": "Your actions ultimately affect you.",
+    "category": "moral"
+  },
+  {
+    "id": 2,
+    "textDari": "آب که از سر گذشت چه یک وجب چه صد وجب",
+    "textPashto": "اوبه چې له سره تیرې شوې، که یوه نې که سل نې",
+    "translationEn": "When the water passes over your head, it doesn’t matter if it's one inch or a hundred.",
+    "meaning": "Once the situation is out of control, the degree doesn't matter.",
+    "category": "wisdom"
+  },
+  {
+    "id": 3,
+    "textDari": "از تو حرکت از خدا برکت",
+    "textPashto": "له تا حرکت، له خدا برکت",
+    "translationEn": "You make the move, God brings the blessings.",
+    "meaning": "Effort must come before blessings.",
+    "category": "advice"
+  },
+  {
+    "id": 4,
+    "textDari": "نابرده رنج گنج میسر نمی‌شود",
+    "textPashto": "بې زحمته خزانه نه ترلاسه کېږي",
+    "translationEn": "No pain, no gain",
+    "meaning": "Nothing valuable can be achieved without effort.",
+    "category": "wisdom"
+  },
+  {
+    "id": 5,
+    "textDari": "هر که بامش بیش برفش بیشتر",
+    "textPashto": "چا چې بام لوړ وي، واوره به یې هم زیاته وي",
+    "translationEn": "The higher the roof, the more snow it gathers.",
+    "meaning": "With greater wealth or status comes more responsibility or trouble.",
+    "category": "wisdom"
+  },
+  {
+    "id": 6,
+    "textDari": "با یک گل بهار نمی‌شود",
+    "textPashto": "یوه ګل پسرلی نه جوړوي",
+    "translationEn": "One flower doesn't bring spring",
+    "meaning": "One small sign doesn't indicate a bigger change.",
+    "category": "moral"
+  },
+  {
+    "id": 7,
+    "textDari": "خیاط در کوزه افتاد",
+    "textPashto": "درزی پخپله کوزه ته ولوېد",
+    "translationEn": "The tailor fell into the jar.",
+    "meaning": "Someone fell victim to their own tricks or work",
+    "category": "humor"
+  },
+  {
+    "id": 8,
+    "textDari": "دل به دل راه دارد",
+    "textPashto": "زړونه سره لاره لري",
+    "translationEn": "Hearts have a path to each other.",
+    "meaning": "There is an unspoken connection between people.",
+    "category": "romantic"
+  },
+  {
+    "id": 9,
+    "textDari": "هر گردی گردو نیست",
+    "textPashto": "هر ګرد ګردو نه وي",
+    "translationEn": "Not every round thing is a walnut.",
+    "meaning": "Not everything that looks the same is the same.",
+    "category": "advice"
+  },
+  {
+    "id": 10,
+    "textDari": "چراغی که به خانه رواست به مسجد حرام است",
+    "textPashto": "چراغ چې کور ته روا وي، جومات ته حرام دی",
+    "translationEn": "A lamp needed at home is forbidden to be taken to the mosque.",
+    "meaning": "Charity begins at home; take care of your own first.",
+    "category": "wisdom"
+  },
+  {
+    "id": 11,
+    "textDari": "اگر خواهی نشوی رسوا همرنگ جماعت شو",
+    "textPashto": "که نه غواړې رسوا شې، د خلکو په رنګ رنګ شه",
+    "translationEn": "If you don't want to be disgraced, blend in with the crowd.",
+    "meaning": "Sometimes it's safer to follow the crowd.",
+    "category": "social"
+  }
+]
